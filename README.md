@@ -20,7 +20,10 @@ Britain needing reliable telecommunication infrastructure services.
 HTML5, CSS3
 
 ## Live Site
-(to be added after publishing to GitHub Pages)
+https://donaldkuri.github.io/Netcab-website/
 
 ## Repository
-(to be added)
+https://github.com/Donaldkuri/Netcab-website.git
+
+## Validation
+All 5 pages validated with zero errors or warnings via the W3C Nu Html Checker.
