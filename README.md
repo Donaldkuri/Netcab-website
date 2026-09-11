@@ -27,3 +27,15 @@ https://github.com/Donaldkuri/Netcab-website.git
 
 ## Validation
 All 5 pages validated with zero errors or warnings via the W3C Nu Html Checker.
+
+## AI Use Declaration
+I used Claude (Anthropic AI assistant) during this project for:
+- Guidance on project structure, folder setup, and Git workflow
+- Draft HTML content for page sections (Home, About, Services, Gallery, Contact)
+- A starter CSS stylesheet for basic layout and styling
+- Step-by-step help troubleshooting Git commands and GitHub Pages setup
+
+All code was reviewed, tested, and adjusted by me. Business-specific content 
+(NETCAB's services, audience, and scenario) was directed by me, and I 
+customized wording where needed. I ran the HTML validation and publishing 
+steps myself and verified the results.
