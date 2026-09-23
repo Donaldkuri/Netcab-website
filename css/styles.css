@@ -309,3 +309,47 @@ footer {
 }
 footer p { margin: 0; }
 nav ul, nav li { background: none; padding: 0; margin: 0; }
+/* ===== Flexbox: page layout (sticky footer) ===== */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+main {
+  flex: 1;
+  padding-block: var(--space-5);
+}
+
+/* ===== Card (reused in Step 5) ===== */
+.card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: var(--space-4);
+}
+.card h3 { margin-bottom: var(--space-2); }
+.card p:last-child { margin-bottom: 0; }
+
+/* ===== Flexbox: row of cards ===== */
+.card-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+}
+.card-row .card {
+  flex: 1 1 240px;
+}
+
+/* ===== Flexbox: contact details beside the form ===== */
+.contact-layout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-5);
+  align-items: flex-start;
+}
+.contact-details { flex: 1 1 260px; }
+.contact-layout form {
+  flex: 2 1 340px;
+  max-width: none;
+}
