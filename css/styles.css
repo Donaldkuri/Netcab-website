@@ -463,3 +463,23 @@ tbody tr:hover { background: var(--color-bg); }
     font-size: 0.8rem;
   }
 }
+/* ===== Responsive images ===== */
+.gallery-grid .card img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+}
+.gallery-grid .gallery-graphic img {
+  height: auto;
+  object-fit: contain;
+}
+/* ===== Focus refinement ===== */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 3px solid var(--color-accent);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
