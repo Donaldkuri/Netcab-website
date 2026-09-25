@@ -463,6 +463,7 @@ tbody tr:hover { background: var(--color-bg); }
     font-size: 0.8rem;
   }
 }
+
 /* ===== Responsive images ===== */
 .gallery-grid .card img {
   width: 100%;
